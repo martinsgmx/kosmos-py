@@ -1,6 +1,6 @@
 # Kosmos - technical test
 
-## How to setting up environment and install dependecies
+## How to setting up environment and install dependencies
 
 With `uv` create an new environment:
 
@@ -47,7 +47,7 @@ use some custom certs, you must be able to create at this two simple commands:
 openssl req -new -x509 -days 365 -nodes -out auth//server.crt -keyout auth//server.key
 ```
 
-> Generate certificate as server:
+> Generate certificate as client:
 
 ```bash
 openssl req -new -x509 -days 365 -nodes -out auth//clients//client.crt -keyout auth//clients//client.key
