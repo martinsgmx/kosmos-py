@@ -1,0 +1,9 @@
+[project]
+name = "ev-kosmos"
+version = "0.0.1"
+description = "Kosmos technical test"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+]
